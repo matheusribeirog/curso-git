@@ -1,6 +1,11 @@
+git commit -am "mensagem" # Adiciona os arquivos que foram modificados e commita com a mensagem
+
 #Voltando versões
 
 Se o arquivo foi só editado é só escrever :
 git checkout NomeDoArquivo
 
 
+Caso tenha dado um git add, para tirar da fila do stage:
+git reset HEAD NomeDoArquivo
+E após isso git checkout NomeDoArquivo para voltar a versão anterior
