@@ -1,4 +1,4 @@
-git commit -am "mensagem" # Adiciona os arquivos que foram modificados e commita com a mensagem
+git commit -am "mensagem" # Adiciona os arquivos que foram modificados e commitacom a mensagem
 
 #Voltando versões
 
@@ -9,3 +9,12 @@ git checkout NomeDoArquivo
 Caso tenha dado um git add, para tirar da fila do stage:
 git reset HEAD NomeDoArquivo
 E após isso git checkout NomeDoArquivo para voltar a versão anterior
+
+#Voltando de um que ja foi commitado
+
+#git reset -soft "Rash"  - Retorna o arquivo com ele ja adicionado
+
+#git reset --mixed "Rash" - Retorna com o arquivo modificado sem adicionar
+
+#git reset --hard "Rash" - Mata tudo que tinha no commit do hash
+
