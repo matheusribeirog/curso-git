@@ -1,0 +1,6 @@
+#Voltando versões
+
+Se o arquivo foi só editado é só escrever :
+git checkout NomeDoArquivo
+
+
